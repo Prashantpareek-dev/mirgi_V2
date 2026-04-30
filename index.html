@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Free Expert Consultation | Ayurvedic Neurological Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
@@ -49,204 +51,6 @@
       overflow: hidden;
       padding: 0;
       min-height: 580px;
-    }
-
-
-    .hero-badge {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      color: #fff;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      display: inline-block;
-      padding: 6px 16px;
-      border-radius: 20px;
-      margin: 28px 20px 0;
-    }
-
-    .hero-img-container {
-      position: relative;
-      height: 270px;
-      margin: 0 20px;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-    }
-
-    .hero-img-bg {
-      position: absolute;
-      bottom: 0;
-      width: 220px;
-      height: 220px;
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 50%;
-    }
-
-    .hero-doctor-img {
-      position: relative;
-      z-index: 2;
-      width: 200px;
-      height: 230px;
-      object-fit: cover;
-      border-radius: 120px 120px 0 0;
-      border: 4px solid rgba(255, 255, 255, 0.3);
-      filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
-    }
-
-    .hero-float-badge {
-      position: absolute;
-      top: 30px;
-      right: -10px;
-      background: var(--green);
-      color: #fff;
-      font-size: 10px;
-      font-weight: 700;
-      padding: 8px 12px;
-      border-radius: 12px 12px 0 12px;
-      box-shadow: 0 4px 15px rgba(56, 142, 60, 0.5);
-      line-height: 1.4;
-      text-align: center;
-      z-index: 10;
-      animation: floatBadge 2.5s ease-in-out infinite;
-    }
-
-    @keyframes floatBadge {
-
-      0%,
-      100% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(-6px);
-      }
-    }
-
-    .hero-content {
-      padding: 0 20px 50px;
-      position: relative;
-      z-index: 2;
-    }
-
-    .hero h1 {
-      font-family: 'Halant', serif;
-      font-size: 28px;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1.3;
-      margin-bottom: 12px;
-    }
-
-    .hero h1 span {
-      color: #FFD54F;
-      display: block;
-    }
-
-    .hero-sub {
-      color: rgba(255, 255, 255, 0.88);
-      font-size: 14px;
-      line-height: 1.7;
-      margin-bottom: 16px;
-      font-weight: 400;
-    }
-
-    .hero-punch {
-      background: rgba(255, 255, 255, 0.12);
-      border-left: 3px solid #FFD54F;
-      padding: 12px 14px;
-      border-radius: 0 10px 10px 0;
-      color: #fff;
-      font-size: 13px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      line-height: 1.6;
-    }
-
-    .hero-expert {
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 14px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .hero-expert-icon {
-      font-size: 28px;
-      flex-shrink: 0;
-    }
-
-    .hero-expert p {
-      font-size: 13px;
-      color: rgba(255, 255, 255, 0.9);
-      line-height: 1.6;
-    }
-
-    .hero-cta-btn {
-      display: block;
-      background: #FFD54F;
-      color: #BF360C;
-      font-family: 'Halant', serif;
-      font-size: 18px;
-      font-weight: 700;
-      text-align: center;
-      padding: 16px;
-      border-radius: 14px;
-      margin: 18px 0 0;
-      text-decoration: none;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-      transition: transform 0.2s, box-shadow 0.2s;
-      cursor: pointer;
-      border: none;
-      width: 100%;
-      letter-spacing: 0.3px;
-    }
-
-    .hero-cta-btn:active {
-      transform: scale(0.97);
-    }
-
-    /* ===== OFFERS STRIP ===== */
-    .offers-strip {
-      background: var(--green);
-      padding: 14px 16px;
-      display: flex;
-      gap: 10px;
-      overflow-x: auto;
-      scrollbar-width: none;
-    }
-
-    .offers-strip::-webkit-scrollbar {
-      display: none;
-    }
-
-    .offer-chip {
-      flex-shrink: 0;
-      background: rgba(255, 255, 255, 0.15);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 20px;
-      padding: 6px 14px;
-      color: #fff;
-      font-size: 12px;
-      font-weight: 600;
-      white-space: nowrap;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-
-    .offer-chip:active {
-      background: rgba(255, 255, 255, 0.3);
-    }
-
-    .offer-chip .chip-icon {
-      font-size: 14px;
     }
 
     /* ===== SECTION COMMON ===== */
@@ -1119,32 +923,6 @@
       animation: pulse 2s ease-in-out infinite;
     }
 
-    /* WhatsApp float */
-    .wa-float {
-      position: fixed;
-      bottom: 80px;
-      right: calc(50% - 225px + 14px);
-      z-index: 998;
-      background: #25D366;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
-      cursor: pointer;
-      animation: floatBadge 2.5s ease-in-out infinite;
-      text-decoration: none;
-    }
-
-    @media (max-width: 450px) {
-      .wa-float {
-        right: 14px;
-      }
-    }
-
     .padding {
       padding-bottom: 75px;
     }
@@ -1157,17 +935,8 @@
 
     <!-- ===== HERO ===== -->
     <section class="hero">
-      <img src="./Image/Hero.png" style="width: 100%; width: 100%; object-fit: cover;" alt="">
+      <img src="./Image/Hero.avif" width="450" height="580" style="width: 100%; height: auto; object-fit: cover;" alt="Ayurvedic Expert Consultation" fetchpriority="high">
     </section>
-
-    <!-- ===== OFFERS STRIP ===== -->
-    <!-- <div class="offers-strip">
-    <div class="offer-chip"><span class="chip-icon">🚚</span> Free Delivery</div>
-    <div class="offer-chip"><span class="chip-icon">🥗</span> Free Diet Chart</div>
-    <div class="offer-chip"><span class="chip-icon">💳</span> COD Available</div>
-    <div class="offer-chip"><span class="chip-icon">📞</span> Free Call</div>
-    <div class="offer-chip"><span class="chip-icon">🛡️</span> 100% Safe</div>
-  </div> -->
 
     <!-- ===== PROBLEM SECTION ===== -->
     <section class="problem-section">
@@ -1181,7 +950,7 @@
       <div class="problem-grid reveal">
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/1.png" alt="" class="problem-card-img">
+          <img src="./Image/1.avif" alt="Symptoms को ignore करना" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>शुरुआती symptoms को ignore करते हैं</h4>
             <p>बार-बार चक्कर, कमजोरी — छोटा लगता है पर warning हो सकता है</p>
@@ -1191,7 +960,7 @@
 
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/2.png" alt="" class="problem-card-img">
+          <img src="./Image/2.avif" alt="Public places में attack" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>public places में attack आने की चिंता</h4>
             <p>भीड़-भाड़ वाले स्थानों में अचानक समस्या आने का डर</p>
@@ -1201,7 +970,7 @@
 
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/3.png" alt="" class="problem-card-img">
+          <img src="./Image/3.avif" alt="Confidence और social interaction" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>confidence और social interaction कम हो जाता है</h4>
             <p>समस्या के कारण आत्मविश्वास और सामाजिक संपर्क में कमी आ सकती है</p>
@@ -1211,7 +980,7 @@
 
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/4.png" alt="" class="problem-card-img">
+          <img src="./Image/4.avif" alt="नींद stress और routine" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>नींद, stress और routine का सीधा असर पड़ता है</h4>
             <p>समस्या के कारण नींद, तनाव और दैनिक दिनचर्या पर प्रतिकूल प्रभाव पड़ सकता है</p>
@@ -1221,7 +990,7 @@
 
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/5.png" alt="" class="problem-card-img">
+          <img src="./Image/5.avif" alt="Job और daily work" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>job और daily work में focus disturb होता है</h4>
             <p>समस्या के कारण काम और रोजमर्रा के कार्यों में ध्यान केंद्रित करना मुश्किल हो सकता है</p>
@@ -1231,7 +1000,7 @@
 
         <div class="problem-card">
           <div class="problem-card-accent"></div>
-          <img src="./Image/6.png" alt="" class="problem-card-img">
+          <img src="./Image/6.avif" alt="Travel और risky work" class="problem-card-img" loading="lazy" width="150" height="150">
           <div class="problem-card-body">
             <h4>अकेले travel या risky काम avoid करना पड़ता है</h4>
             <p>समस्या के कारण अकेले यात्रा या जोखिम भरे कार्यों से बचना पड़ सकता है</p>
@@ -1253,7 +1022,7 @@
       <div class="solution-cards reveal">
         <div class="sol-card">
           <div class="sol-card-num">1</div>
-          <img src="./Image/7.png" alt="" class="sol-card-img">
+          <img src="./Image/7.avif" alt="Expert Consultation" class="sol-card-img" loading="lazy" width="150" height="150">
           <div class="sol-card-body">
             <h4>1-to-1 Expert Consultation</h4>
             <p>Personal attention — आपकी बात ध्यान से सुनी जाती है</p>
@@ -1262,7 +1031,7 @@
 
         <div class="sol-card">
           <div class="sol-card-num">2</div>
-          <img src="./Image/8.png" alt="" class="sol-card-img">
+          <img src="./Image/8.avif" alt="Condition Analysis" class="sol-card-img" loading="lazy" width="150" height="150">
           <div class="sol-card-body">
             <h4>आपकी condition detail में समझी जाती है</h4>
             <p>Symptoms + reports based complete analysis</p>
@@ -1271,7 +1040,7 @@
 
         <div class="sol-card">
           <div class="sol-card-num">3</div>
-          <img src="./Image/9.png" alt="" class="sol-card-img">
+          <img src="./Image/9.avif" alt="Normal vs Serious" class="sol-card-img" loading="lazy" width="150" height="150">
           <div class="sol-card-body">
             <h4>Normal vs Serious — Clear किया जाता है</h4>
             <p>बताया जाता है कि कितनी जल्दी attention चाहिए</p>
@@ -1280,7 +1049,7 @@
 
         <div class="sol-card">
           <div class="sol-card-num">4</div>
-          <img src="./Image/10.png" alt="" class="sol-card-img">
+          <img src="./Image/10.avif" alt="Next Step Guidance" class="sol-card-img" loading="lazy" width="150" height="150">
           <div class="sol-card-body">
             <h4>Clear Next Step बताया जाता है</h4>
             <p>कोई pressure नहीं — decision पूरी तरह आपका</p>
@@ -1289,7 +1058,7 @@
 
         <div class="sol-card">
           <div class="sol-card-num">5</div>
-          <img src="./Image/11.png" alt="" class="sol-card-img">
+          <img src="./Image/11.avif" alt="Personalized Guidance" class="sol-card-img" loading="lazy" width="150" height="150">
           <div class="sol-card-body">
             <h4>कोई pressure नहीं — decision पूरी तरह आपका</h4>
             <p>आपकी condition के अनुसार personalized guidance दी जाती है</p>
@@ -1309,37 +1078,37 @@
 
       <div class="trust-hex-grid reveal">
         <div class="trust-hex-card">
-          <img src="./Image/12.png" alt="Expert">
+          <img src="./Image/12.avif" alt="Experienced Ayurvedic Expert" loading="lazy" width="180" height="180">
           <h4>Experienced Ayurvedic Experts</h4>
           <p>वर्षों का अनुभव, सही दिशा</p>
         </div>
 
         <div class="trust-hex-card">
-          <img src="./Image/13.png" alt="Trust">
+          <img src="./Image/13.avif" alt="Honored Professional" loading="lazy" width="180" height="180">
           <h4>Honored & Professional</h4>
           <p>Certified guidance आपके लिए</p>
         </div>
 
         <div class="trust-hex-card">
-          <img src="./Image/14.png" alt="Transparent">
+          <img src="./Image/14.avif" alt="Transparent Approach" loading="lazy" width="180" height="180">
           <h4>Transparent Approach</h4>
           <p>कोई hidden agenda नहीं</p>
         </div>
 
         <div class="trust-hex-card">
-          <img src="./Image/15.png" alt="Patient First">
+          <img src="./Image/15.avif" alt="Patient First Mindset" loading="lazy" width="180" height="180">
           <h4>Patient-First Mindset</h4>
           <p>आप पहले — सब कुछ बाद में</p>
         </div>
 
         <div class="trust-hex-card">
-          <img src="./Image/16.png" alt="Personalized">
+          <img src="./Image/16.avif" alt="Personalized Understanding" loading="lazy" width="180" height="180">
           <h4>Personalized Understanding</h4>
           <p>Generic नहीं, सिर्फ आपके लिए</p>
         </div>
 
         <div class="trust-hex-card">
-          <img src="./Image/17.png" alt="Clarity">
+          <img src="./Image/17.avif" alt="Clarity Driven Consultation" loading="lazy" width="180" height="180">
           <h4>Clarity-Driven Consultation</h4>
           <p>Confusion खत्म, direction clear</p>
         </div>
@@ -1362,7 +1131,7 @@
             <div class="step-line"></div>
           </div>
           <div class="process-step-right">
-            <img src="./Image/12.png" alt="Fill Details" class="process-step-img">
+            <img src="./Image/12.avif" alt="Fill Details Form" class="process-step-img" loading="lazy" width="300" height="220">
             <h3>Details Fill करें</h3>
             <p>अपना नाम और फोन नंबर भरें या WhatsApp पर connect करें</p>
           </div>
@@ -1374,7 +1143,7 @@
             <div class="step-line"></div>
           </div>
           <div class="process-step-right">
-            <img src="./Image/18.png" alt="Expert Call" class="process-step-img">
+            <img src="./Image/18.avif" alt="Expert Call Connect" class="process-step-img" loading="lazy" width="300" height="220">
             <h3>Expert Call / Connect</h3>
             <p>हमारा expert आपसे बात करके आपकी condition को detail में समझेगा</p>
           </div>
@@ -1385,7 +1154,7 @@
             <div class="step-circle">3</div>
           </div>
           <div class="process-step-right">
-            <img src="./Image/19.png" alt="Get Guidance" class="process-step-img">
+            <img src="./Image/19.avif" alt="Get Clear Guidance" class="process-step-img" loading="lazy" width="300" height="220">
             <h3>Clear Guidance पाएं</h3>
             <p>आपको बताया जाएगा कि आपकी स्थिति normal है या तुरंत ध्यान देने की जरूरत है, और आगे क्या करना चाहिए</p>
           </div>
@@ -1394,7 +1163,7 @@
     </section>
 
     <section style="padding: 2px;">
-      <img src="./Image/24.png" style="width: 100%; height: auto; object-fit: cover;" alt="">
+      <img src="./Image/24.avif" width="450" height="300" style="width: 100%; height: auto; object-fit: cover;" alt="Ayurvedic Treatment" loading="lazy">
     </section>
 
     <!-- ===== ORDER / BOOKING SECTION ===== -->
@@ -1491,7 +1260,7 @@
           display: none;
           position: fixed;
           inset: 0;
-          background: rgba(13, 71, 161, 0.92);
+          background: rgba(229, 144, 46, 0.92);
           z-index: 9999;
           flex-direction: column;
           align-items: center;
@@ -1679,7 +1448,7 @@
       <div class="reviews-scroll reveal">
         <div class="review-card">
           <div class="review-top">
-            <img src="./Image/20.png" alt="Rohit" class="review-avatar">
+            <img src="./Image/20.avif" alt="Rohit Sharma Review" class="review-avatar" loading="lazy" width="50" height="50">
             <div class="review-meta">
               <div class="review-stars">★★★★★</div>
               <h4>Rohit Sharma</h4>
@@ -1693,7 +1462,7 @@
 
         <div class="review-card">
           <div class="review-top">
-            <img src="./Image/21.png" alt="Pooja" class="review-avatar">
+            <img src="./Image/21.avif" alt="Pooja Verma Review" class="review-avatar" loading="lazy" width="50" height="50">
             <div class="review-meta">
               <div class="review-stars">★★★★★</div>
               <h4>Pooja Verma</h4>
@@ -1707,7 +1476,7 @@
 
         <div class="review-card">
           <div class="review-top">
-            <img src="./Image/22.png" alt="Family Member" class="review-avatar">
+            <img src="./Image/22.avif" alt="Suresh Kumar Review" class="review-avatar" loading="lazy" width="50" height="50">
             <div class="review-meta">
               <div class="review-stars">★★★★★</div>
               <h4>Suresh Kumar</h4>
@@ -1778,9 +1547,6 @@
     <div class="padding"></div>
 
   </div>
-
-  <!-- WhatsApp Float -->
-  <!-- <a href="https://wa.me/919999999999" class="wa-float" target="_blank">💬</a> -->
 
   <!-- Sticky CTA -->
   <div class="sticky-cta">
